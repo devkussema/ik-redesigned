@@ -21,3 +21,9 @@ def store(request):
 
 def news(request):
     return render(request, "ik/news.html")
+
+def login(request):
+    return render(request, "ik/login.html")
+
+def registar(request):
+    return render(request, "ik/registar.html")

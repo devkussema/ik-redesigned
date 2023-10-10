@@ -9,4 +9,6 @@ urlpatterns = [
     path("podcasts", views.podcasts, name="podcasts"),
     path("store", views.store, name="store"),
     path("news", views.news, name="news"),
+    path("registar", views.registar, name="registar"),
+    path("login", views.login, name="entrar"),
 ]
